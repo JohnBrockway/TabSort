@@ -1,0 +1,24 @@
+{
+    "name": "Tab Sort",
+    "version": "1.1.0",
+    "description": "Sort all tabs in a window by their URL",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "commands": {
+        "sort": {
+            "suggested_key": {
+                "default": "Alt+S"
+            },
+            "description": "Sort the active window's tabs"
+        }
+    },
+    "icons": {
+        "128": "128.png"
+    },
+    "manifest_version": 2
+}
